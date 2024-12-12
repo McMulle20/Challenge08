@@ -35,7 +35,7 @@ Xpert Learning Assistant
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 https://www.typescriptlang.org/docs/handbook/2/objects.html
 https://www.typescriptlang.org/docs/handbook/2/classes.html
-Sebestian from AskBCS
+Sebestian from AskBCS reseting my package.jsn
 
 ## License
 
