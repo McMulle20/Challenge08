@@ -20,7 +20,7 @@ Steps to install and set up your project:
    
 2. Clone the repository: git clone [link](https://github.com/McMulle20/Challenge08).
 
-3. Please run an integrated terminal in Challenge08 folder.
+3. Please run "npm start" in the integrated terminal of Challenge08 folder.
 
 ## Usage
 
@@ -35,6 +35,7 @@ Xpert Learning Assistant
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 https://www.typescriptlang.org/docs/handbook/2/objects.html
 https://www.typescriptlang.org/docs/handbook/2/classes.html
+Sebestian from AskBCS
 
 ## License
 
