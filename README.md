@@ -17,9 +17,10 @@ Steps to install and set up your project:
    Node.js: You can download and install it from https://nodejs.org/.
    NPM: This is installed automatically with Node.js.
    Inquirer: A library for asking questions via the command line. Use command: npm install inquirer.
-   FS: A built-in Node.js module for file system operations.
+   
+2. Clone the repository: git clone [link](https://github.com/McMulle20/Challenge08).
 
-2. Clone the repository: git clone link.
+3. Please run an integrated terminal in Challenge08 folder.
 
 ## Usage
 

@@ -173,7 +173,8 @@ class Cli {
         },
       ])
       .then((answers) => {
-        const truck = new Truck(
+        const wheels: Wheel[] = [new Wheel(), new Wheel(), new Wheel(), new Wheel()];
+        const newTruck = new Truck(
           Cli.generateVin(),
           answers.color,
           answers.make,
@@ -181,14 +182,11 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
-          [
-            new Wheel(parseInt(answers.frontWheelDiameter), answers.frontWheelBrand),
-            new Wheel(parseInt(answers.rearWheelDiameter), answers.rearWheelBrand)
-          ], 
+          wheels,
           parseInt(answers.towingCapacity)
         );
-        this.vehicles.push(truck);
-        this.selectedVehicleVin = truck.vin;
+        this.vehicles.push(newTruck);
+        this.selectedVehicleVin = newTruck.vin;
         this.performActions();
         // TODO: Use the answers object to pass the required properties to the Truck constructor
         // TODO: push the truck to the vehicles array
